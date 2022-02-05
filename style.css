@@ -1,40 +1,81 @@
 body{
-    background-image: linear-gradient(#252531,#343445,#53536E);
+    color: black;
 }
-body{
-    color: grey;
-}
+.Main-Page-Headings{
+    text-align: center;
+    font-size: larger;
+  }
+  .Main-Page-Paragraphs{
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+  }
+  p{
+      font-size: medium;
+  }
+  .Social-Icons li{
+    display: inline-block;
+  }
+  .Social-Icons {
+    text-align: center;
+  }
+  .First-Page-Icon{
+    width: 30px;
+    height: 30px;
+  }
+  .Nav-Icon{
+    width: 30px;
+    height: 30px;
+    border-color: blue;
+  }
 .header-text{
-    color: white;
-    font-family: caveat;
+    color: black;
+    font-family: kalam;
     text-align: center;
     font-weight: 400;
-    filter: drop-shadow(10px 10px 10px yellow );
+    filter: drop-shadow(10px 10px 10px black );
+    -webkit-filter: drop-shadow(10px 10px 10px black );
 }
 .Insta-btn{
-    align-content: center;
-    float: center;
-    margin-left: 38%;
+    font-family: kalam;
     text-transform: capitalize;
-    filter: drop-shadow(10px 4px 8px blue );
-    width: 25%;
-    height: 10%;
 }
 .Web-btn{
-    align-content: center;
-    float: center;
-    margin-left: 38%;
+    font-family: kalam;
     text-transform: capitalize;
-    filter: drop-shadow(10px 4px 8px cyan );
-    width: 25%;
-    height: 10%;
 }
 .Git-btn{
-    align-content: center;
-    float: center;
-    margin-left: 38%;
+    font-family: kalam;
     text-transform: capitalize;
-    filter: drop-shadow(10px 4px 8px lightgreen );
-    width: 25%;
-    height: 10%;
+    
+}
+.column{
+    float:center;
+    text-align: center;
+    font-family: kalam !important;
+    font-weight: 1000;
+    font-size: x-large;
+  }
+  .row::after{
+    content:"";
+    clear:both;
+    display:table
+  }
+  @media screen and (max-width:500px){
+    .column{
+      width:100%
+    }
+}
+button{
+    width: fit-content;
+    font-size: larger;
+}
+img{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-style:solid;
+    border-color:red;
 }
